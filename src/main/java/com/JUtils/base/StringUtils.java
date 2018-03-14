@@ -99,7 +99,8 @@ public class StringUtils {
 		}
 		
 		int length = value.length();
-		if(length == 1){          //长度为1，存在字符
+		//长度为1，存在字符
+		if(length == 1){
 			return repeatChar(value.charAt(0), count);
 		}
 		
