@@ -273,7 +273,8 @@ public class StringUtils {
 	 * @return
 	 */
 	public static String delHTMLTag(String htmlStr){
-		String regEx_script = "<script[^>]*?>[\\s\\S]*?<\\/script>"; // 定义script的正则表达式  
+		// 定义script的正则表达式
+		String regEx_script = "<script[^>]*?>[\\s\\S]*?<\\/script>";
 	    String regEx_style = "<style[^>]*?>[\\s\\S]*?<\\/style>"; // 定义style的正则表达式  
 	    String regEx_html = "<[^>]+>"; // 定义HTML标签的正则表达式  
 	    String regEx_space = "\\s*|\t|\r|\n";//定义空格回车换行符 
